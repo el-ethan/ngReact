@@ -98,7 +98,7 @@ The component can be used in an Angular view using the react-component directive
 ```html
 <body ng-app="app">
   <div ng-controller="helloController">
-    <react-component name="HelloComponent" props="person" watch-depth="reference"/>
+    <react-component name="HelloComponent" props="person" watch-depth="reference"></react-component>
   </div>
 </body>
 ```
